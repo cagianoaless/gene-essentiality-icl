@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript; bibliographic publication details remain provisional."
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/cagianoaless/gene-essentiality-icl"
+title: "Gene essentiality prediction with tabular in-context learning"
+authors:
+  - family-names: Cagiano
+    given-names: Alessandro
+preferred-citation:
+  type: article
+  title: "Tabular In-Context Learning for Gene Essentiality Prediction Across Cancer Cell Lines"
+  authors:
+    - family-names: Cagiano
+      given-names: Alessandro
+    - family-names: Dileo
+      given-names: Manuel
+    - family-names: Sottoriva
+      given-names: Andrea
+    - family-names: Zignani
+      given-names: Matteo
+  year: 2026
+  notes: "Unpublished ESANN manuscript draft; no acceptance or DOI is asserted."

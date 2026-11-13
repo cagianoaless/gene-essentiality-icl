@@ -1,0 +1,35 @@
+{
+  "tabpfn": {
+    "model": "tabpfn",
+    "repo": "Prior-Labs/tabpfn_3_5",
+    "revision": "06bf2ba35c80a92a3b9abb436b99cf49e7a0365e",
+    "filename": "tabpfn-v3.5-20260909.safetensors",
+    "bytes": 876027932,
+    "sha256": "ece4d67eadfea42eb0e610df5189bea60cb7f31073d81e9c7a019b76eacf0be3",
+    "license": "tabpfn-3-5-license-v1.0",
+    "source": "https://huggingface.co/Prior-Labs/tabpfn_3_5/resolve/06bf2ba35c80a92a3b9abb436b99cf49e7a0365e/tabpfn-v3.5-20260909.safetensors",
+    "package_version": "9.1.0"
+  },
+  "tabicl": {
+    "model": "tabicl",
+    "repo": "jingang/TabICL",
+    "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+    "filename": "tabicl-regressor-v2-20260212.ckpt",
+    "bytes": 114324594,
+    "sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+    "license": "bsd-3-clause",
+    "source": "https://huggingface.co/jingang/TabICL/resolve/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-regressor-v2-20260212.ckpt",
+    "package_version": "2.2.0"
+  },
+  "kumo": {
+    "model": "kumo",
+    "repo": "nvidia/Kumo-Tabular",
+    "revision": "bd7fa122b516c7355583873ffcf38f5e79403ebd",
+    "filename": "large/regressor.pt",
+    "bytes": 862909259,
+    "sha256": "745e0e5d97e4256d8a24cb61c2eecbd1128da6c83938c196b7589ea6f62e7421",
+    "license": "openmdw-1.1",
+    "source": "https://huggingface.co/nvidia/Kumo-Tabular/resolve/bd7fa122b516c7355583873ffcf38f5e79403ebd/large/regressor.pt",
+    "package_version": "0.1.0.dev0"
+  }
+}

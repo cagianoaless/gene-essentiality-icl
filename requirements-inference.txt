@@ -1,0 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+-r requirements.txt
+torch==2.11.0+cu128
+tabpfn==9.1.0
+tabicl==2.2.0

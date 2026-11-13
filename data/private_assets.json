@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "source_commit": "5c64926af07b0f05ddeb7fe8a256fc1ead1ab6a7",
+  "status": "excluded_pending_file_specific_rights; stage only authorized copies",
+  "files": {
+    "data/examples/historical_tabicl_fold0_60to70_first64.csv": {
+      "sha256": "1027b345020bcadf09089dd58440ce163dea557949e16921ebdbc20934efcd93",
+      "bytes": 3734,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/examples/historical_tabicl_fold0_60to70_first64.csv"
+    },
+    "data/metadata/checkpoints.json": {
+      "sha256": "7fb83849aae43f2de15578ecdf277e910a7c6abca0aa21bc8f91071a73ad9c4e",
+      "bytes": 919,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/checkpoints.json"
+    },
+    "data/metadata/examples-10to20.parquet": {
+      "sha256": "c801f7b4e88f619e7b1c6a0679abd9baa391fbee8351ec1718a28ca73ca8cfde",
+      "bytes": 115014,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-10to20.parquet"
+    },
+    "data/metadata/examples-20to30.parquet": {
+      "sha256": "2f03c95ca10350fe1b42edeb62e66ce65ec31efe1315c484fe01b22c7b948cad",
+      "bytes": 54429,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-20to30.parquet"
+    },
+    "data/metadata/examples-30to40.parquet": {
+      "sha256": "8810f030d45232c528ebc120996805e306cf97c4e065156a8fd74c8353864ce2",
+      "bytes": 19849,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-30to40.parquet"
+    },
+    "data/metadata/examples-40to50.parquet": {
+      "sha256": "ca78e4dfe57ca94568e25b7bee6916df44f69fffed4822088d9242877db6434d",
+      "bytes": 17074,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-40to50.parquet"
+    },
+    "data/metadata/examples-50to60.parquet": {
+      "sha256": "b7f7f03334abb3303ed9b9e6d499d69df0e9acbe5c18cec6583454e19e7a4d69",
+      "bytes": 18950,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-50to60.parquet"
+    },
+    "data/metadata/examples-60to70.parquet": {
+      "sha256": "423bc1af95c2374b1f5357fbadce77d5386c205ab178302beae50b0267574f57",
+      "bytes": 15027,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-60to70.parquet"
+    },
+    "data/metadata/examples-70to80.parquet": {
+      "sha256": "886074a406f5a81635a014519335b8d590b976f57d30c59ab4442941816ec621",
+      "bytes": 15615,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-70to80.parquet"
+    },
+    "data/metadata/examples-80to90.parquet": {
+      "sha256": "8ece07a96750884974f951e1f13d73b02942f2923adb9d9bb65d59db5e2e0f0e",
+      "bytes": 17107,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-80to90.parquet"
+    },
+    "data/metadata/examples-90to100.parquet": {
+      "sha256": "69520aa47a261a8a9620a288f88de58dae7d16b9aa41df88ae203b518f3f43a4",
+      "bytes": 1205609,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/examples-90to100.parquet"
+    },
+    "data/metadata/expression_mapping.csv": {
+      "sha256": "c6d7dbe972413819f501ab7a80420163174f21cc33b78f862935406a96abca3d",
+      "bytes": 150205,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/expression_mapping.csv"
+    },
+    "data/metadata/genes-10to20.csv": {
+      "sha256": "f6ec5053fc30f05636a9ea26ad064138f7695059d5c7e1d569ccd2d9d7e6ac70",
+      "bytes": 2753,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-10to20.csv"
+    },
+    "data/metadata/genes-20to30.csv": {
+      "sha256": "834bf5ddb26600c02338120a8dc097a5b08618b9b834c2f0b44bf29b56ce1281",
+      "bytes": 1641,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-20to30.csv"
+    },
+    "data/metadata/genes-30to40.csv": {
+      "sha256": "689855a1974e682412470434b12d9bcdfc4433cb3bddb30cf1e50f56bd7a77f8",
+      "bytes": 1184,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-30to40.csv"
+    },
+    "data/metadata/genes-40to50.csv": {
+      "sha256": "de533f38f9d1a2b6f49c3a5ac0f064363c662208792dda9690929477a889a267",
+      "bytes": 944,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-40to50.csv"
+    },
+    "data/metadata/genes-50to60.csv": {
+      "sha256": "8cf42373c58554eabaab23e398abda79e7e3509ad7f37db291a2011ffb297992",
+      "bytes": 766,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-50to60.csv"
+    },
+    "data/metadata/genes-60to70.csv": {
+      "sha256": "cafa7f0acb0f10d4efcc394e177d4d57ebd0a8c9a84864aaa0a46f3d4baf69e9",
+      "bytes": 720,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-60to70.csv"
+    },
+    "data/metadata/genes-70to80.csv": {
+      "sha256": "d32f14998e1cf1c095dfea001a469801616247516517ae38fda1241ec17570f1",
+      "bytes": 839,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-70to80.csv"
+    },
+    "data/metadata/genes-80to90.csv": {
+      "sha256": "ae767172adae3104e81e34cf9ce211f9d54afae319f362a5d6056bf0c922ba2d",
+      "bytes": 977,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-80to90.csv"
+    },
+    "data/metadata/genes-90to100.csv": {
+      "sha256": "9e409a781f69b9bb7abe3c4d551d2276a89d5dac8fbd5d9d485c6e8fd12acff4",
+      "bytes": 6023,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/genes-90to100.csv"
+    },
+    "data/metadata/lineages.csv": {
+      "sha256": "2d1a9e3b1139ee85508e4d37ebf79bb16b91d907e0f261203db9fb2cf9f34f85",
+      "bytes": 20507,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/lineages.csv"
+    },
+    "data/metadata/manifest.json": {
+      "sha256": "4ff7433da57663dadda371067df2dea298bc44a1bcfed95bcbd07e4d4bbc1809",
+      "bytes": 2321,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/manifest.json"
+    },
+    "data/metadata/preprocessing.json": {
+      "sha256": "71915410ab4216bc40810ba3a4705fe95590ece57f935e5b124bfc918b4d2f6b",
+      "bytes": 85366,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/preprocessing.json"
+    },
+    "data/metadata/sdm_source_hashes.json": {
+      "sha256": "79978c1a0bb42b29585bddd8c3c4300a98706c7999d12d42d38bb91ab8feb929",
+      "bytes": 14651,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/sdm_source_hashes.json"
+    },
+    "data/metadata/selections.json": {
+      "sha256": "64dd008a00aa00eaef4167e731f86fc7dfd3381dc6ea5d451f0345f1d5362fa2",
+      "bytes": 405962,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/selections.json"
+    },
+    "data/metadata/splits.csv": {
+      "sha256": "1c1fd48a824195ed87f1c10f4fda8fa546c0ae6d9535b31fa967c6c391bb6731",
+      "bytes": 25824,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/metadata/splits.csv"
+    },
+    "data/preprocessing/depmap-fold0.npz": {
+      "sha256": "46b1e2abe1ac3fb60bbfddb30a078974022f5106bc2ca2834bffe52ea99ae701",
+      "bytes": 1025822,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/preprocessing/depmap-fold0.npz"
+    },
+    "data/preprocessing/depmap-fold1.npz": {
+      "sha256": "95e6e61e5326810e96374f502b1f2501f7266a97d09df497b6fbf9514f38006b",
+      "bytes": 1025877,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/preprocessing/depmap-fold1.npz"
+    },
+    "data/preprocessing/depmap-fold2.npz": {
+      "sha256": "eb64f0281c11d1980a41bf968aa49d26e742ecf30fa6ab54a3571d1f35129669",
+      "bytes": 1025639,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/preprocessing/depmap-fold2.npz"
+    },
+    "data/preprocessing/depmap-fold3.npz": {
+      "sha256": "cc9ac73d2595aa110d08be61fc3a4e939bf4694ff981f8c6fd3e447a51d2b991",
+      "bytes": 1026007,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/preprocessing/depmap-fold3.npz"
+    },
+    "data/preprocessing/depmap-fold4.npz": {
+      "sha256": "1a96c3d378130dfcffacd9d4a92e8ab1f47d15f6eb4f9a52acc55906a087c620",
+      "bytes": 1025925,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/preprocessing/depmap-fold4.npz"
+    },
+    "data/preprocessing/lung_ood.npz": {
+      "sha256": "0c0a12a19bbf02f92689f2db831863c890db0d8cd29fb80ba60bbde0b0d02b85",
+      "bytes": 1025723,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "data/preprocessing/lung_ood.npz"
+    },
+    "results/main/feature_states.json": {
+      "sha256": "a2c272081635829e48318920ba823302f8262b7b817031bb8bfedc4d8fefa9fb",
+      "bytes": 71623,
+      "redistribution": "not established; excluded",
+      "source_relative_path": "results/main/feature_states.json"
+    }
+  }
+}

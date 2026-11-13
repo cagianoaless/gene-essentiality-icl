@@ -1,0 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+-r requirements.txt
+torch==2.11.0+cu128
+structured-data-models @ git+https://github.com/NVIDIA/structured-data-models.git@e22aecb0d902c380f758de2771e3a66d41cd5022

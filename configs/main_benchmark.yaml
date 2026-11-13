@@ -1,0 +1,40 @@
+study: main_benchmark
+representation: F
+feature_width: 31
+feature_dtype: float32
+pca_rank: 15
+pca_seed: 0
+model_seed: 0
+pca_mode: frozen
+models:
+  tabpfn:
+    package: tabpfn
+    version: 9.1.0
+    context: FULL
+    n_estimators: 8
+    query_batch_size: 8192
+  tabicl:
+    package: tabicl
+    version: 2.2.0
+    context: 32768
+    n_estimators: 1
+    query_batch_size: 4096
+  kumo:
+    package: structured-data-models
+    version: 0.1.0.dev0
+    context: 32768
+    n_estimators: 1
+    query_batch_size: 1024
+tabpfn:
+  fit_mode: fit_with_cache
+  keep_cache_on_device: true
+  kv_cache_precision: auto
+  inference_precision: auto
+  memory_saving_mode: auto
+  query_execution: internal
+  max_batched_test_rows: 8192
+  max_batched_estimator_rows: null
+  max_batched_estimator_cells: null
+metrics: [auroc, r2, auprc]
+binary_label: y > 0.5
+aggregation: five fold means within each stratum, then median of nine strata

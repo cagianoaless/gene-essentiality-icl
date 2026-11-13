@@ -1,0 +1,67 @@
+{
+  "tahoe_commit": "167cc19fce5888c7738b0f73f61cb4a8d3d1d457",
+  "inputs": [
+    {
+      "path": "counts.h5ad",
+      "url": "https://tahoe-hackathon-data.s3.amazonaws.com/MFM/benchmarks/depmap/counts.h5ad",
+      "sha256": "42ed13df4e458455eef9b0546f2049ce5b9c0cb92ec55d785555f2422d4c33d3",
+      "bytes": 85184651,
+      "etag": "\"c4dbb2e269635b2dab7889254e0389c0-11\"",
+      "release": "Tahoe snapshot; original DepMap quarter unverified",
+      "license_status": "Per-file release terms need confirmation before redistribution"
+    },
+    {
+      "path": "raw/depmap-gene-dependencies.csv",
+      "url": "https://tahoe-hackathon-data.s3.amazonaws.com/MFM/benchmarks/depmap/raw/depmap-gene-dependencies.csv",
+      "sha256": "a297e82bb19f4a9f70034c3bbdf17999f95e71e584ac57cc200751f272612a77",
+      "bytes": 394166489,
+      "etag": "\"5f12be3ffab8e0a7ecedb00f2347f9ed-47\"",
+      "release": "Tahoe snapshot; original DepMap quarter unverified",
+      "license_status": "Per-file release terms need confirmation before redistribution"
+    },
+    {
+      "path": "raw/depmap-metadata.csv",
+      "url": "https://ndownloader.figshare.com/files/43746708",
+      "sha256": "6b77a73209ce3faaa7442dbd947d8e08ddcb08b538c36fe820163f9cff321341",
+      "bytes": 530469,
+      "etag": "\"74ca5c14f118e445f1ad5a1a0335492e\"",
+      "release": "DepMap Public 23Q4 v2 (Figshare file 43746708)",
+      "license_status": "Per-file release terms need confirmation before redistribution",
+      "source_filename": "Model_v2.csv"
+    },
+    {
+      "path": "misc/split-cls.csv",
+      "url": "https://tahoe-hackathon-data.s3.amazonaws.com/MFM/benchmarks/depmap/misc/split-cls.csv",
+      "bytes": 25824,
+      "sha256": "1c1fd48a824195ed87f1c10f4fda8fa546c0ae6d9535b31fa967c6c391bb6731"
+    },
+    {
+      "path": "misc/genes-by-mean-disc.csv",
+      "url": "https://tahoe-hackathon-data.s3.amazonaws.com/MFM/benchmarks/depmap/misc/genes-by-mean-disc.csv",
+      "bytes": 439697,
+      "sha256": "8707a2be31b0d2b8d52ebfb77571fd44e59a8bccc7f20b9f68e3a3693a20d87b"
+    }
+  ],
+  "model_checkpoints": [
+    {
+      "model": "tabpfn",
+      "repo": "Prior-Labs/tabpfn_3_5",
+      "revision": "06bf2ba35c80a92a3b9abb436b99cf49e7a0365e",
+      "filename": "tabpfn-v3.5-20260909.safetensors",
+      "bytes": 876027932,
+      "sha256": "ece4d67eadfea42eb0e610df5189bea60cb7f31073d81e9c7a019b76eacf0be3",
+      "license": "tabpfn-3-5-license-v1.0",
+      "source": "https://huggingface.co/Prior-Labs/tabpfn_3_5/resolve/06bf2ba35c80a92a3b9abb436b99cf49e7a0365e/tabpfn-v3.5-20260909.safetensors"
+    },
+    {
+      "model": "kumo",
+      "repo": "nvidia/Kumo-Tabular",
+      "revision": "bd7fa122b516c7355583873ffcf38f5e79403ebd",
+      "filename": "large/regressor.pt",
+      "bytes": 862909259,
+      "sha256": "745e0e5d97e4256d8a24cb61c2eecbd1128da6c83938c196b7589ea6f62e7421",
+      "license": "openmdw-1.1",
+      "source": "https://huggingface.co/nvidia/Kumo-Tabular/resolve/bd7fa122b516c7355583873ffcf38f5e79403ebd/large/regressor.pt"
+    }
+  ]
+}

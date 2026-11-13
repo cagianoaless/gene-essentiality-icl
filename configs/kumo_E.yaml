@@ -1,0 +1,73 @@
+experiment: kumo_E
+representation: E
+feature_width: 30
+feature_dtype: float32
+folds:
+- 0
+- 1
+- 2
+- 3
+- 4
+strata:
+- 10to20
+- 20to30
+- 30to40
+- 40to50
+- 50to60
+- 60to70
+- 70to80
+- 80to90
+- 90to100
+budgets:
+- 32768
+selection_seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+model_seed: 0
+tabpfn_estimators: 8
+tabpfn_version: 9.1.0
+execution:
+  fit_mode: fit_with_cache
+  keep_cache_on_device: true
+  kv_cache_precision: auto
+  inference_precision: auto
+  memory_saving_mode: auto
+  query_execution: internal
+  max_batched_test_rows: 8192
+  max_batched_estimator_rows: null
+  max_batched_estimator_cells: null
+rf_parameters:
+  bootstrap: true
+  ccp_alpha: 0.0
+  criterion: squared_error
+  max_depth: null
+  max_features: 1.0
+  max_leaf_nodes: null
+  max_samples: null
+  min_impurity_decrease: 0.0
+  min_samples_leaf: 1
+  min_samples_split: 2
+  min_weight_fraction_leaf: 0.0
+  monotonic_cst: null
+  n_estimators: 100
+  n_jobs: 4
+  oob_score: false
+  random_state: 0
+  verbose: 0
+  warm_start: false
+models:
+- kumo1
+- kumo16
+budget_unit: labelled_pairs
+metrics:
+- auroc
+- r2
+- auprc
+pca_mode: frozen
+preprocessing_tolerances:
+  atol: 0.0005
+  rtol: 1.0e-05
+no_subsampling: true
